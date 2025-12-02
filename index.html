@@ -1,0 +1,264 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+</head>
+<body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header & Hero Section -->
+    <header class="header" id="header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a href="#home" class="nav-logo">Portfolio.</a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link" data-scroll>Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link" data-scroll>About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link" data-scroll>Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link" data-scroll>Projects</a></li>
+                <li class="nav-item"><a href="#resume" class="nav-link" data-scroll>Resume</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link" data-scroll>Contact</a></li>
+            </ul>
+
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <span class="theme-icon" id="theme-icon">🌙</span>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+
+        <section class="hero container reveal" id="home">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Hello, I'm Himanshu</span><br>
+                    Web Developer & Designer
+                </h1>
+                <p class="hero-subtitle">I create beautiful, functional websites with modern technologies and user‑centered design.</p>
+                <a href="#projects" class="btn btn-primary" data-scroll>View My Work</a>
+            </div>
+            <div class="hero-visual">
+                <div class="gradient-orb"></div>
+            </div>
+        </section>
+    </header>
+
+    <main id="main-content">
+        <!-- About Section -->
+        <section class="section about" id="about">
+            <div class="container">
+                <h2 class="section-title reveal">About Me</h2>
+                <div class="about-content">
+                    <div class="about-img reveal" data-delay="200">
+                        <img src="C:\Users\kumar\Downloads\WhatsApp Image 2025-12-02 at 22.58.53_f6aff9a1.jpg" alt="Profile photo of Himanshu" loading="lazy">
+                    </div>
+                    <div class="about-text reveal" data-delay="400">
+                        <p>Hi! I’m Himanshu, a curious tech lover who enjoys experimenting with code, learning new tools, and building cool projects.</p>
+                        <p>My approach combines technical expertise with a keen eye for design, ensuring every project is both functional and visually engaging. I enjoy solving complex problems and continuously learning new technologies.</p>
+                        <p>When I'm not coding, you can find me exploring new design trends, contributing to open‑source projects, or hiking in the mountains.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills" id="skills">
+            <div class="container">
+                <h2 class="section-title reveal">Skills & Expertise</h2>
+                <div class="skills-grid">
+                    <div class="skill-card reveal">
+                        <div class="skill-icon">💻</div>
+                        <h3 class="skill-title">Frontend</h3>
+                        <p class="skill-desc">HTML5, CSS3, JavaScript, React, Vue</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 90%;" data-width="90"></div>
+                        </div>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                    <div class="skill-card reveal" data-delay="100">
+                        <div class="skill-icon">🎥</div>
+                        <h3 class="skill-title">Cinematography & Video Editing</h3>
+                        <p class="skill-desc">Snapseed, Adobe lightroom, Canva, Capcut</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%;" data-width="85"></div>
+                        </div>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="skill-card reveal" data-delay="200">
+                        <div class="skill-icon">⚙️</div>
+                        <h3 class="skill-title">Backend</h3>
+                        <p class="skill-desc">Node.js, Express, MongoDB, REST APIs</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 75%;" data-width="75"></div>
+                        </div>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="skill-card reveal" data-delay="300">
+                        <div class="skill-icon">📱</div>
+                        <h3 class="skill-title">Responsive</h3>
+                        <p class="skill-desc">Mobile‑First, Flexbox, Grid, Cross‑Browser</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 95%;" data-width="95"></div>
+                        </div>
+                        <span class="skill-percent">95%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects" id="projects">
+            <div class="container">
+                <h2 class="section-title reveal">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card reveal">
+                        <div class="project-img">
+                            <img src="C:\Users\kumar\OneDrive\Pictures\Screenshots\Screenshot 2025-12-02 210649.png" alt="Student Dashboard" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Student Dashboard</h3>
+                            <p class="project-desc">A user-friendly Student Dashboard that lets students track their learning progress, manage tasks, and access study materials with ease.</p>
+                            <div class="project-tags">
+                                <span class="tag">Html</span>
+                                <span class="tag">Css</span>
+                                <span class="tag">Js</span>
+                            </div>
+                            <a href="https://himanshu26881.github.io/Student_Dashboard/" class="btn btn-outline" aria-label="View details of Student Dashboard">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-card reveal" data-delay="200">
+                        <div class="project-img">
+                            <img src="assets/project2.jpg" alt="Travel app interface" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Travel Planner App</h3>
+                            <p class="project-desc">Interactive travel planning tool with maps, itinerary builder, and real‑time weather updates.</p>
+                            <div class="project-tags">
+                                <span class="tag">Vue.js</span>
+                                <span class="tag">Firebase</span>
+                                <span class="tag">API</span>
+                            </div>
+                            <a href="#" class="btn btn-outline" aria-label="View details of Travel Planner App project">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-card reveal" data-delay="400">
+                        <div class="project-img">
+                            <img src="assets/project3.jpg" alt="Fitness tracking dashboard" loading="lazy">
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Fitness Tracker</h3>
+                            <p class="project-desc">Dashboard for tracking workouts, nutrition, and progress with data visualization charts.</p>
+                            <div class="project-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Chart.js</span>
+                                <span class="tag">PWA</span>
+                            </div>
+                            <a href="#" class="btn btn-outline" aria-label="View details of Fitness Tracker project">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section class="section resume" id="resume">
+            <div class="container">
+                <div class="resume-content reveal">
+                    <h2 class="section-title">My Resume</h2>
+                    <p class="resume-text">Download my resume to learn more about my experience, education, and professional background.</p>
+                    <a href="C:\Users\kumar\Downloads\My resume (1).pdf" class="btn btn-primary btn-large" download aria-label="Download resume PDF">
+                        📄 Download Resume
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact">
+            <div class="container">
+                <h2 class="section-title reveal">Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info reveal">
+                        <h3>Contact Information</h3>
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>kumarhimanshu26881@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 8797041956</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Jamshedpur Jharkhand, INDIA</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/himanshu26881" aria-label="GitHub profile">GitHub</a>
+                            <a href="https://www.linkedin.com/in/himanshu-kumar-1a9ba1328?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMcrrHNXUTNCj7zTHH7TrxQ%3D%3D" aria-label="LinkedIn profile">LinkedIn</a>
+                            <a href="#" aria-label="Instagram Profile">Instagram</a>
+                        </div>
+                    </div>
+
+                    <form class="contact-form reveal" id="contact-form" data-delay="200" novalidate>
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required aria-required="true">
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required aria-required="true">
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Write your Message *</label>
+                            <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <div class="form-success" id="form-success" role="alert" aria-live="polite">
+                            Message sent successfully! I'll get back to you soon.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year">2024</span> Offline. All rights reserved.</p>
+            <p class="footer-links">
+                <a href="#home" data-scroll>Home</a> •
+                <a href="#about" data-scroll>About</a> •
+                <a href="#contact" data-scroll>Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
